@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
-from rest_framework.serializers import ModelSerializer  
 
-from core.models import Veiculo, Acessorio, Cor, Modelo
+
+from core.models import Veiculo
 from core.serializers.veiculo import VeiculoSerializer
 
 class VeiculoViewSet(ModelViewSet):  
